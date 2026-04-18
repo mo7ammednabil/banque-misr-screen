@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bank Masr</string>
+    <string name="lang">EN</string>
+    <string name="username">Email</string>
+    <string name="pass">Password</string>
+    <string name="forget">Forget username/ password?</string>
+    <string name="need_help">Need help?</string>
+    <string name="contact_us">Contact US</string>
+    <string name="login">Login</string>
+    <string name="our_products">Our products</string>
+    <string name="exchange_rate">Exchange rate</string>
+    <string name="security_tips">Security Tips</string>
+    <string name="nearest_branch_or_atm">Nearest branch or ATM</string>
+</resources>
