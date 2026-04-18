@@ -82,7 +82,7 @@ fun Screen(modifier: Modifier = Modifier) {
         )
         Text1(modifier = Modifier.padding(vertical = 16.dp))
         CustomButton(modifier = Modifier.padding(vertical = 16.dp), onClick = {
-            Toast.makeText(context, "Hello $email", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "Hello ${email.substringBefore("@")}", Toast.LENGTH_SHORT).show()
         }, enable = checkEnable(email, password))
         Text2(modifier = Modifier.padding(vertical = 16.dp))
         Box(
